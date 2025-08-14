@@ -1,0 +1,46 @@
+Algoritmo condicional
+	
+	definir precio, cantidad, sub_total Como entero;
+	Definir nombre_cliente, producto, estudiante Como Caracter;
+	
+	Escribir "hola cliente";
+	
+	Escribir  "cual_es_tu_nombre";
+	
+	Leer nombre_del_cliente
+	
+	escribir "que_producto_nesesitas";
+	
+	leer producto_a_comprar;
+	
+	Leer cantidad
+	
+	escribir "uested es un estudiante"
+	Leer es_estudiante
+	
+	Escribir "el precio del producto por unidad es 2000"
+	Leer precio 
+	
+	sub_total<-  cantidad * precio
+	
+	Mostrar "el sub_total es de ", sub total
+	si estudiante="si"  Entonces;
+		
+		total <- subtotal* 0.05;
+	
+		Mostrar "el preciototal es ", total;
+		
+	SiNo estudiante="no";
+		
+		total <- subtotal* 1.05;
+		
+		mostrar "el precio total es", total;
+		
+		
+		
+	FinSi
+	
+	Escribir "=====FACTURA====="
+	Escribir "cliente: ",nombre_cliente
+	Escribir "tipo de cliente",
+FinAlgoritmo
